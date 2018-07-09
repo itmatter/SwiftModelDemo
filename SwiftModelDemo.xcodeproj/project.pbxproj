@@ -19,11 +19,17 @@
 		04273E0720F3135900B70A81 /* Swift_SingleModel.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04273E0620F3135900B70A81 /* Swift_SingleModel.plist */; };
 		04273E0920F3137F00B70A81 /* Swift_ComplexModel.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04273E0820F3137F00B70A81 /* Swift_ComplexModel.plist */; };
 		04273E1420F336E900B70A81 /* Swift_SingleModelOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04273E1320F336E900B70A81 /* Swift_SingleModelOne.swift */; };
-		04273E1620F336F100B70A81 /* Swift_SingleModelTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04273E1520F336F100B70A81 /* Swift_SingleModelTwo.swift */; };
 		04273E1C20F3410400B70A81 /* Swift_ComplexModelOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04273E1B20F3410400B70A81 /* Swift_ComplexModelOne.swift */; };
 		04273E1E20F3410E00B70A81 /* Swift_ComplexModelTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04273E1D20F3410E00B70A81 /* Swift_ComplexModelTwo.swift */; };
 		04273E2220F341AD00B70A81 /* Swift_PageInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04273E2120F341AD00B70A81 /* Swift_PageInfoModel.swift */; };
 		04273E2420F3427B00B70A81 /* Swift_ComplexModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04273E2320F3427B00B70A81 /* Swift_ComplexModel.swift */; };
+		04273E2620F34A3F00B70A81 /* Swift_SingleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04273E2520F34A3F00B70A81 /* Swift_SingleModel.swift */; };
+		04273E2920F34DA400B70A81 /* ObjectMapper_SingleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04273E2820F34DA400B70A81 /* ObjectMapper_SingleModel.swift */; };
+		04273E2B20F34DAE00B70A81 /* ObjectMapper_SingleModelOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04273E2A20F34DAE00B70A81 /* ObjectMapper_SingleModelOne.swift */; };
+		04273E2D20F3529100B70A81 /* ObjectMapper_ComplexModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04273E2C20F3529100B70A81 /* ObjectMapper_ComplexModel.swift */; };
+		04273E3020F352B700B70A81 /* ObjectMapper_ComplexModelOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04273E2F20F352B700B70A81 /* ObjectMapper_ComplexModelOne.swift */; };
+		04273E3220F352BC00B70A81 /* ObjectMapper_ComplexModelTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04273E3120F352BC00B70A81 /* ObjectMapper_ComplexModelTwo.swift */; };
+		04273E3420F352D800B70A81 /* ObjectMapper_PageInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04273E3320F352D800B70A81 /* ObjectMapper_PageInfoModel.swift */; };
 		33832A31D6824430044B0E42 /* Pods_SwiftModelDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C9786BF2DB70EAC5B898A33 /* Pods_SwiftModelDemoUITests.framework */; };
 		81F6BFA597BA56EC7E89AFAD /* Pods_SwiftModelDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EBF2CCC6393BD01369EB301 /* Pods_SwiftModelDemo.framework */; };
 		E755776CEFFBA68E6D17FC7E /* Pods_SwiftModelDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 977F7D03C5C714F737B438C3 /* Pods_SwiftModelDemoTests.framework */; };
@@ -65,11 +71,17 @@
 		04273E0620F3135900B70A81 /* Swift_SingleModel.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Swift_SingleModel.plist; sourceTree = "<group>"; };
 		04273E0820F3137F00B70A81 /* Swift_ComplexModel.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Swift_ComplexModel.plist; sourceTree = "<group>"; };
 		04273E1320F336E900B70A81 /* Swift_SingleModelOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_SingleModelOne.swift; sourceTree = "<group>"; };
-		04273E1520F336F100B70A81 /* Swift_SingleModelTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_SingleModelTwo.swift; sourceTree = "<group>"; };
 		04273E1B20F3410400B70A81 /* Swift_ComplexModelOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_ComplexModelOne.swift; sourceTree = "<group>"; };
 		04273E1D20F3410E00B70A81 /* Swift_ComplexModelTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_ComplexModelTwo.swift; sourceTree = "<group>"; };
 		04273E2120F341AD00B70A81 /* Swift_PageInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_PageInfoModel.swift; sourceTree = "<group>"; };
 		04273E2320F3427B00B70A81 /* Swift_ComplexModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_ComplexModel.swift; sourceTree = "<group>"; };
+		04273E2520F34A3F00B70A81 /* Swift_SingleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_SingleModel.swift; sourceTree = "<group>"; };
+		04273E2820F34DA400B70A81 /* ObjectMapper_SingleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectMapper_SingleModel.swift; sourceTree = "<group>"; };
+		04273E2A20F34DAE00B70A81 /* ObjectMapper_SingleModelOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectMapper_SingleModelOne.swift; sourceTree = "<group>"; };
+		04273E2C20F3529100B70A81 /* ObjectMapper_ComplexModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectMapper_ComplexModel.swift; sourceTree = "<group>"; };
+		04273E2F20F352B700B70A81 /* ObjectMapper_ComplexModelOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectMapper_ComplexModelOne.swift; sourceTree = "<group>"; };
+		04273E3120F352BC00B70A81 /* ObjectMapper_ComplexModelTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectMapper_ComplexModelTwo.swift; sourceTree = "<group>"; };
+		04273E3320F352D800B70A81 /* ObjectMapper_PageInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectMapper_PageInfoModel.swift; sourceTree = "<group>"; };
 		0DFA9258AAB94F8F3B6C6BFF /* Pods-SwiftModelDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftModelDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftModelDemoTests/Pods-SwiftModelDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		0EBF2CCC6393BD01369EB301 /* Pods_SwiftModelDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftModelDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4370A4799C4F861C789483B6 /* Pods-SwiftModelDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftModelDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftModelDemoUITests/Pods-SwiftModelDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -168,6 +180,8 @@
 			children = (
 				04273E0220F3126600B70A81 /* ModelViewController.swift */,
 				04273E0320F3126600B70A81 /* ModelViewController.xib */,
+				04273E2E20F3529F00B70A81 /* 假数据 */,
+				04273E2720F34D7300B70A81 /* ObjectMapper */,
 				04273E0C20F3149500B70A81 /* 原生写法 */,
 			);
 			path = ModelDemo;
@@ -176,16 +190,36 @@
 		04273E0C20F3149500B70A81 /* 原生写法 */ = {
 			isa = PBXGroup;
 			children = (
-				04273E0620F3135900B70A81 /* Swift_SingleModel.plist */,
+				04273E2520F34A3F00B70A81 /* Swift_SingleModel.swift */,
 				04273E1320F336E900B70A81 /* Swift_SingleModelOne.swift */,
-				04273E1520F336F100B70A81 /* Swift_SingleModelTwo.swift */,
-				04273E0820F3137F00B70A81 /* Swift_ComplexModel.plist */,
 				04273E2320F3427B00B70A81 /* Swift_ComplexModel.swift */,
 				04273E1B20F3410400B70A81 /* Swift_ComplexModelOne.swift */,
 				04273E1D20F3410E00B70A81 /* Swift_ComplexModelTwo.swift */,
 				04273E2120F341AD00B70A81 /* Swift_PageInfoModel.swift */,
 			);
 			path = "原生写法";
+			sourceTree = "<group>";
+		};
+		04273E2720F34D7300B70A81 /* ObjectMapper */ = {
+			isa = PBXGroup;
+			children = (
+				04273E2820F34DA400B70A81 /* ObjectMapper_SingleModel.swift */,
+				04273E2A20F34DAE00B70A81 /* ObjectMapper_SingleModelOne.swift */,
+				04273E2C20F3529100B70A81 /* ObjectMapper_ComplexModel.swift */,
+				04273E2F20F352B700B70A81 /* ObjectMapper_ComplexModelOne.swift */,
+				04273E3120F352BC00B70A81 /* ObjectMapper_ComplexModelTwo.swift */,
+				04273E3320F352D800B70A81 /* ObjectMapper_PageInfoModel.swift */,
+			);
+			path = ObjectMapper;
+			sourceTree = "<group>";
+		};
+		04273E2E20F3529F00B70A81 /* 假数据 */ = {
+			isa = PBXGroup;
+			children = (
+				04273E0620F3135900B70A81 /* Swift_SingleModel.plist */,
+				04273E0820F3137F00B70A81 /* Swift_ComplexModel.plist */,
+			);
+			path = "假数据";
 			sourceTree = "<group>";
 		};
 		6C4FD2846B95A328061CA41F /* Frameworks */ = {
@@ -424,15 +458,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04273E1620F336F100B70A81 /* Swift_SingleModelTwo.swift in Sources */,
 				04273E1C20F3410400B70A81 /* Swift_ComplexModelOne.swift in Sources */,
 				04273E2220F341AD00B70A81 /* Swift_PageInfoModel.swift in Sources */,
+				04273E2620F34A3F00B70A81 /* Swift_SingleModel.swift in Sources */,
+				04273E3220F352BC00B70A81 /* ObjectMapper_ComplexModelTwo.swift in Sources */,
+				04273E2920F34DA400B70A81 /* ObjectMapper_SingleModel.swift in Sources */,
 				04273DD620F3111F00B70A81 /* ViewController.swift in Sources */,
 				04273E2420F3427B00B70A81 /* Swift_ComplexModel.swift in Sources */,
+				04273E2B20F34DAE00B70A81 /* ObjectMapper_SingleModelOne.swift in Sources */,
 				04273DD420F3111F00B70A81 /* AppDelegate.swift in Sources */,
 				04273E1E20F3410E00B70A81 /* Swift_ComplexModelTwo.swift in Sources */,
+				04273E3420F352D800B70A81 /* ObjectMapper_PageInfoModel.swift in Sources */,
 				04273E1420F336E900B70A81 /* Swift_SingleModelOne.swift in Sources */,
+				04273E2D20F3529100B70A81 /* ObjectMapper_ComplexModel.swift in Sources */,
 				04273E0420F3126600B70A81 /* ModelViewController.swift in Sources */,
+				04273E3020F352B700B70A81 /* ObjectMapper_ComplexModelOne.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
