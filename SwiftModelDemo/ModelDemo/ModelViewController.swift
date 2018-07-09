@@ -69,10 +69,25 @@ class ModelViewController: UIViewController {
             print("positionCode = \(String(describing: swift_ComplexModel?.positionCode))")
 
             
-            
-            
-          
+            print("---------------------------------")
+            //打印modelArr_1中元素内容
+            print("modelArr_1 count : \(String(describing: swift_ComplexModel?.modelArr_1?.count))")
+            if swift_ComplexModel?.modelArr_1?.count != 0 {
+                let oneModel : Swift_ComplexModelOne = (swift_ComplexModel?.modelArr_1?.last)!
+                print("oneModel : \(oneModel)")
 
+            }
+            //打印modelArr_2中元素内容
+            print("modelArr_2 count : \(String(describing: swift_ComplexModel?.modelArr_2?.count))")
+            if swift_ComplexModel?.modelArr_2?.count != 0 {
+                let twoModel : Swift_ComplexModelTwo = (swift_ComplexModel?.modelArr_2?.last)!
+                print("oneModel : \(twoModel)")
+                print("balance : \(String(describing: twoModel.balance))")
+                print("birthday : \(String(describing: twoModel.birthday))")
+                print("financialPlannerId : \(String(describing: twoModel.financialPlannerId))")
+                print("headImgUrl : \(String(describing: twoModel.headImgUrl))")
+                //.....
+            }
         }
 
 
